@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es-col">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="logo__alura"><img src="./Assets/Logo.png"> </header>
+    
+    <main class="presentacion">
+        
+        <section class="presentacion__contenido">
+            
+            <textarea id="miTextarea" class="caja__texto" rows="10" cols="30" placeholder="Ingrese el texto aqui"></textarea>    
+            <p class="caja__texto__parrafo"><img src="./Assets/Vector.png"> Solo letras minusculas y sin acentos</p>
+            <div class="Presentacion__botones">
+                <button class="Presentacion__botones__1" onclick="encriptarTexto()"> Encriptar</button>
+                <button class="Presentacion__botones__2" onclick="desencriptarTexto()"> Desencriptar</button>
+            </div> 
+        </section>
+        <section class="presentacion__texto__salida" >
+
+            <div id="noEncontrado" class="Cuadro__presentacion__textoNO">
+                <div class="Cuadro__presentacion"> 
+                    <img class="img" src="./Assets/Muñeco.png">
+                    <P class="Cuadro__presentacion__mensaje__1">Ningun mensaje fue encontrado</p> 
+                    <p class="Cuadro__presentacion__mensaje__2"> Ingrese el texto que desees encriptar o desencriptar.</p>
+            
+                </div>
+            </div>
+
+            <diV id="encontradotext" class="Cuadro__presentacion__textoEN">                
+                <textarea class="Cuadro__presentacion"  id="textSalida"  cols="20" rows="10"></textarea>
+                <button id="btcopiar" class="Cuadro__presentacion__boton__1" onclick="botonCopiar()"> Copiar</button>
+                <p id="texCop" class="texto__copiado">..Texto copiado..</p>
+            </diV>
+
+        </section>
+
+    </main>
+   
+
+    <footer>
+        <div class="footer">
+            <p> Elaborado por Daniel Guzman</p>
+            <a href=""><img src="./Assets/facebook.png" alt="logo facebook"></a>
+            <a href="https://github.com/Daguzman97?tab=repositories"><img src="./Assets/github.png" alt="Logo github"></a>
+            <a><img src="./Assets/linkedin.png" alt=" logo linkedin"> </a>
+
+
+        </div>
+
+
+    </footer>
+
+    
+</body>
+<script src="Encriptador.js"></script>
+</html>

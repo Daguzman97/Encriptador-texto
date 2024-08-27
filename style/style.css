@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+:root{
+
+    --color-primario:#E7FBE6;
+    --color-secundario:#86AB89;
+    --color-terciario: #CBE2B5;
+    --color-boton: #F9DBBA;
+    
+    --fuente-inter: "Inter", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+ 
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    font-family: var(--fuente-inter);
+ 
+    
+}
+
+.logo__alura{
+    padding: 2% 0 0 2%;
+    
+}
+
+.presentacion{
+    display: flex;
+    padding: 0 20% 3% 20%;
+    gap: 20%;
+    width: auto;
+    height: auto;
+    
+    
+}
+
+.presentacion__contenido{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    position: relative;
+    
+    
+}
+
+.caja__texto{
+    font-family: var(--fuente-inter);
+    color: var(--color-secundario) ;
+    font-size: 2rem;
+    font-weight: 400;
+    background-color: var(--color-primario);
+    resize: none;
+    border: none ; 
+    display: flex;
+    height: 288;
+    justify-content:left;
+    outline: none;
+    width: 680;
+    padding: 5% 0 40%;
+     
+}
+.caja__texto::placeholder{
+    color: var(--color-secundario) ;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.caja__texto__parrafo{
+ display: flex;
+ font-size: 0.75rem;
+ padding: 1%;
+ gap: 3px;
+}
+.Presentacion__botones{
+    display: flex;
+    gap: 24px;
+}
+.Presentacion__botones__1{
+   background-color: var(--color-secundario);
+   color: var(--color-terciario);
+   border: none;
+    width: 328px;
+    height: 67px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 400;  
+    justify-content: center;
+    box-shadow: 0.15rem 0.15rem 0.6rem #00000096;
+
+}
+
+.Presentacion__botones__2{
+    background-color: var(--color-boton);
+    color: var(--color-secundario);
+    border-color: var(--color-secundario);
+    width: 328px;
+    height: 67px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 400;  
+    justify-content: center;
+    box-shadow: 0.15rem 0.15rem 0.6rem #00000096;
+    
+ }
+
+button:hover{
+    cursor: pointer;
+    scale: 1.06;
+    transition: 400ms;
+}
+
+
+
+.Cuadro__presentacion{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-terciario); 
+    border: solid; 
+    border: none;
+    border-radius: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size:1.5rem ;
+    color: #495057;
+    width: 22rem;
+    height: 43rem;
+    outline: none;
+    text-align: left;
+    padding: 10% 10% 0 ;
+    resize: none;
+    color: var(--color-secundario);
+    font-family: var(--fuente-inter);
+    
+}
+
+
+
+
+
+.Cuadro__presentacion__mensaje__1{
+    font-weight: 700 ;
+    font-size: 1.5rem;
+    color: #343A40;
+    text-align: center;
+    padding: 2% 20% 0;
+    
+ 
+}
+
+
+.Cuadro__presentacion__mensaje__2{
+    font-weight: 400 ;
+    font-size: 1rem;
+    color: #495057;
+    padding: 2% 10% 0;
+   text-align: center;
+    
+}
+
+
+
+
+
+.Cuadro__presentacion__boton__1{
+    bottom: 6rem;
+    right: -2.5rem;
+    background-color: var(--color-secundario);
+    color: var(--color-terciario);
+    border: none;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-weight: 400;  
+    width: 336px;
+    height: 67px;
+    padding: 10px 20px;
+    box-shadow: 0.15rem 0.15rem 0.6rem #00000096;
+    position: relative
+
+    
+}
+
+.texto__copiado{
+    display: block;
+    position: absolute;
+    bottom: 27rem;
+    left: 32%;
+    background: var(--color-primario);
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    font-size: .7rem;
+    transition: opacity .9s;
+    opacity: 3rem; 
+    margin: auto 1.7rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer{
+   display: flex;
+    background-color: var(--color-terciario);
+    color: var(--color-boton);
+    font-family: var(--fuente-inter);
+    font-size: 1.5rem;
+    padding: 9px 20px 0;
+    text-align:end;
+    justify-content: left;
+    font-weight: 400;
+    text-shadow: -2px -2px 0 #000,  2px -2px 0 #000,-2px 2px 0 #000, 2px 2px 0 #000; 
+    gap: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+    scale: 1.5;
+    transition: 400ms;
+}
+
+@media screen and (max-width:1024px){
+
+    body{
+        width: auto;
+        align-content: center;
+        justify-content: center;
+        padding:0 0 0 2%;
+    }
+    .logo__alura{
+
+        padding: 3% 0 3% 0;
+        width: auto;
+    }
+    .presentacion__texto__salida{
+        width: auto;
+    }
+
+    .img{
+        display: none;
+    }
+
+    .presentacion{
+        
+        width: auto;
+        flex-direction:column;
+        padding: 0 0 10% 0;    
+        align-content: center;
+        justify-content: center;
+    }
+    .presentacion__contenido{
+        width:auto;
+
+        padding: 0 0 5%;
+        
+    }
+    
+    .Cuadro__presentacion{
+        padding: 4%;
+        width: 688px;
+        height:auto;
+        
+    }
+    
+    .caja__texto{
+        height: 596px;
+        width: 688px;
+        padding: 5% 0 0;
+        
+    }
+
+    .Cuadro__presentacion__boton__1{
+
+        width: 624px;
+        
+        
+    }
+    .Presentacion__botones__1{
+        width: 343px;
+    }
+
+    .Presentacion__botones__2{
+        width: 343px;
+    }
+    .texto__copiado{
+        bottom: 40rem;
+        left: 20%;
+    }
+
+    .footer{
+        justify-content: center;
+
+    }
+
+
+        
+}
+
+@media screen and (max-width: 768px){
+    
+    body{
+
+        padding:0 0 0 2%;
+    }
+    
+    .Presentacion__botones{
+        flex-direction: column;
+    }
+
+    .caja__texto{
+    
+        height: auto;
+        width: 343px;
+    }
+    .Cuadro__presentacion{
+        
+        width: 343px;
+        height: auto;
+        
+    }
+    .Presentacion__botones__1{
+        width: 343px;
+    }
+
+    .Presentacion__botones__2{
+        width: 343px;
+    }
+
+    .caja__texto__parrafo{
+        width: 332px;
+    }
+
+    .Cuadro__presentacion__boton__1{
+
+        width: 279px;
+        
+        
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+
+    .texto__copiado{
+        bottom: 15rem;
+        left: 8%;
+    }
+}
