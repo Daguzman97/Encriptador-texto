@@ -1,6 +1,6 @@
 # Encriptador de texto ¡Hola, bienvenido al proyecto Encriptador!
 
-![imagen](https://user-images.githubusercontent.com/77756047/211304452-220fedf0-f91b-490f-8a65-a60ce860bc5c.png)
+![imagen]()
 
 ## Herramientas utilizadas:
 
@@ -22,6 +22,7 @@ La letra "u" es convertida para "ufat"
 * Copia el texto procesado de las dos opciones mencionadas en el punto anterior y si deseas vuelve al punto 2.
 
 ## Demostracion
+![imagen](https://github.com/Daguzman97/Encriptador-texto/blob/main/demostracion.gif)
 
 ## Hecho por:
 
