@@ -1,6 +1,9 @@
-# Encriptador de texto ¡Hola, bienvenido al proyecto Encriptador!
+#¡Hola, bienvenido al proyecto Encriptador!
+https://github.com/Daguzman97/Encriptador-texto/blob/main/README.md
+Este proyecto se realiza durante el curso realizado por Alura y NextOne oracle.
 
-![imagen]()
+## pagina web
+![imagen](https://github.com/Daguzman97/Encriptador-texto/blob/main/Encriptador.png)
 
 ## Herramientas utilizadas:
 
@@ -10,16 +13,16 @@
 * Javascript
 
 ## LLave utilizada para Encriptar el texto
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+*La letra "e" es convertida para "enter"
+*La letra "i" es convertida para "imes"
+*La letra "a" es convertida para "ai"
+*La letra "o" es convertida para "ober"
+*La letra "u" es convertida para "ufat"
 
 ## Instrucciones de Uso
-* ingresar texto que deseas; Recuerda: "en minusculas y que no tenga acentos"
-* Escoge alguna de las dos opciones habilitadas encriptar o desencriptar, recuerda que estas acciones se ralizan de acuerdo a la llave mencionada anteriormente.
-* Copia el texto procesado de las dos opciones mencionadas en el punto anterior y si deseas vuelve al punto 2.
+* 1).Ingresar texto que deseas; Recuerda: "en minusculas y que no tenga acentos"
+* 2).Escoge alguna de las dos opciones habilitadas encriptar o desencriptar, recuerda que estas acciones se ralizan de acuerdo a la llave mencionada anteriormente.
+* 3).Copia el texto procesado y vuelve al punto 1.
 
 ## Demostracion
 ![imagen](https://github.com/Daguzman97/Encriptador-texto/blob/main/demostracion.gif)
